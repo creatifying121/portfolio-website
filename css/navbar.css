@@ -5,7 +5,7 @@ nav, .nav-links{
 nav{
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
+    height: 17vh;
 }
 .nav-links{
     gap: 2rem;
@@ -53,7 +53,7 @@ a:hover{
 
 .menu-links{
     position: absolute;
-    top: 100%;
+    top: 150%;
     right: 0;
     background-color: white;
     width: fit-content;
@@ -77,7 +77,7 @@ a:hover{
 }
 
 .menu-links.open{
-    max-height: 300px;
+    max-height: 500px;
 }
 
 .hamburger-icon.open span:first-child{
