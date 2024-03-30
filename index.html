@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
 
-    <link rel="shortcut icon" href="./images/portfolio.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./images/portfolio.png"
+      type="image/x-icon"
+    />
 
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./css/mediaqueries.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+  </head>
+  <body>
     <!-- desktop navbar start -->
     <nav id="desktop-nav">
-        <div class="logo">Creatifying121</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+      <div class="logo">Creatifying121</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
     <!-- desktop navbar end -->
 
     <!-- mobile navbar start -->
     <nav id="hamburger-nav">
-        <div class="logo">Creatifying121</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
+      <div class="logo">Creatifying121</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
     </nav>
     <!-- mobile navbar end -->
 
@@ -50,234 +54,353 @@
 
     <!-- profile section start -->
     <section id="profile">
-        <div class="section__pic-container">
+      <!-- <div class="section__pic-container">
             <img src="./images/profile-pic.png" alt="Creatifying121 Profile Picture">
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello I'm</p>
-            <h1 class="title">Shivani Raichandani</h1>
-            <p class="section__text__p2">I'm a <span class="role"></span></p>
+        </div> -->
+      <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">Shivani Raichandani</h1>
+        <p class="section__text__p2">I'm a <span class="role"></span></p>
 
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./images/resume-example.pdf')">Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me</button>
-            </div>
-
-            <div id="socials-container">
-                <img src="./images/linkedin.png" alt="LinkedIn Profile" class="icon" onclick="window.open('https://www.linkedin.com/in/shivani111/', '_blank')">
-                <img src="./images/github.png" alt="Github Profile" class="icon" onclick="window.open('https://github.com/creatifying121', '_blank')">
-            </div>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./images/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Me
+          </button>
         </div>
+
+        <div id="socials-container">
+          <img
+            src="./images/linkedin.png"
+            alt="LinkedIn Profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/shivani111/', '_blank')"
+          />
+          <img
+            src="./images/github.png"
+            alt="Github Profile"
+            class="icon"
+            onclick="window.open('https://github.com/creatifying121', '_blank')"
+          />
+        </div>
+      </div>
     </section>
     <!-- profile section end -->
 
-
     <!-- about section start -->
     <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
 
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./images/about-pic.png" alt="Profile Pictuer" class="about-pic">
-            </div>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+          <img
+            src="./images/about-pic.png"
+            alt="Profile Pictuer"
+            class="about-pic"
+          />
+        </div> -->
 
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./images/experience.png" alt="Experience Icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>1+ years <br>Software Development</p>
-                    </div>
-                    <div class="details-container">
-                        <img src="./images/education.png" alt="Education Icon" class="icon">
-                        <h3>Education</h3>
-                        <p>Bachelor of Technology <br>Computer Science & Engineering</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat distinctio amet tenetur deleniti enim, accusamus repellat harum repellendus officiis maiores. Ipsa, culpa. Hic atque id ratione, voluptatem obcaecati totam iure neque doloremque asperiores facere natus temporibus quis! Rerum accusamus, ex quod iure autem consequatur provident eaque voluptates, fugit quos at.</p>
-                </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./images/experience.png"
+                alt="Experience Icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Software Development</p>
             </div>
+            <div class="details-container">
+              <img
+                src="./images/education.png"
+                alt="Education Icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Technology <br />Computer Science & Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              distinctio amet tenetur deleniti enim, accusamus repellat harum
+              repellendus officiis maiores. Ipsa, culpa. Hic atque id ratione,
+              voluptatem obcaecati totam iure neque doloremque asperiores facere
+              natus temporibus quis! Rerum accusamus, ex quod iure autem
+              consequatur provident eaque voluptates, fugit quos at.
+            </p>
+          </div>
         </div>
-        <img src="./images/arrow.png" alt="Move to next section" class="icon arrow" onclick="location.href='./#experience'">
+      </div>
+      <img
+        src="./images/arrow.png"
+        alt="Move to next section"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
     </section>
     <!-- about section end -->
 
-
     <!-- experience section start -->
     <section id="experience">
-        <div class="section__text__p1">Explore My</div>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                    </div>
+      <div class="section__text__p1">Explore My</div>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
                 </div>
-
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Backend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./images/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Advanced</p>
-                            </div>
-                        </article>
-                    </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
                 </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
             </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
-        <img src="./images/arrow.png" alt="Move to next section" class="icon arrow" onclick="location.href='./#projects'">
+      </div>
+      <img
+        src="./images/arrow.png"
+        alt="Move to next section"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
     </section>
     <!-- experience section end -->
 
-
     <!-- projects section start -->
     <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
 
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./images/project-1.png" alt="Project 1" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/creatifying121/'">GitHub</button>
-                        <button class="btn btn-color-2 project-btn">Live Demo</button>
-                    </div>
-                </div>
-    
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./images/project-2.png" alt="Project 2" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/creatifying121/'">GitHub</button>
-                        <button class="btn btn-color-2 project-btn">Live Demo</button>
-                    </div>
-                </div>
-    
-    
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./images/project-3.png" alt="Project 3" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/creatifying121/'">GitHub</button>
-                        <button class="btn btn-color-2 project-btn">Live Demo</button>
-                    </div>
-                </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./images/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
             </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.github.com/creatifying121/'"
+              >
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn">Live Demo</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./images/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.github.com/creatifying121/'"
+              >
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn">Live Demo</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./images/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.github.com/creatifying121/'"
+              >
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn">Live Demo</button>
+            </div>
+          </div>
         </div>
-        <img src="./images/arrow.png" alt="Move to next section" class="icon arrow" onclick="location.href='./#contact'">
+      </div>
+      <img
+        src="./images/arrow.png"
+        alt="Move to next section"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
     </section>
     <!-- projects section end -->
 
-
     <!-- contact section start -->
     <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
 
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img src="./images/email.png" alt="email icon" class="icon contact-icon email-icon">
-                <p><a href="mailto:shivaniraichandani5@gmail.com">Email</a></p>
-            </div>
-
-            <div class="contact-info-container">
-                <img src="./images/linkedin.png" alt="linkedin icon" class="icon contact-icon">
-                <p><a href="https://www.linkedin.com/in/shivani111">LinkedIn</a></p>
-            </div>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./images/email.png"
+            alt="email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:shivaniraichandani5@gmail.com">Email</a></p>
         </div>
+
+        <div class="contact-info-container">
+          <img
+            src="./images/linkedin.png"
+            alt="linkedin icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/shivani111">LinkedIn</a></p>
+        </div>
+      </div>
     </section>
     <!-- contact section end -->
 
-
     <!-- footer start -->
     <footer>
-        <p>Copyright &#169; 2023 Creatifying121. All rights reserved.</p>
+      <p>Copyright &#169; 2023 Creatifying121. All rights reserved.</p>
     </footer>
     <!-- footer end -->
 
     <!-- other sections end -->
 
-
     <!-- scripts -->
-    
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
