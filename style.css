@@ -3,37 +3,38 @@
 @import url("./css/sections.css");
 
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 /* colors in webpage */
-:root{
-    --p-color: rgb(85,85,85);
+:root {
+  --p-color: rgb(85, 85, 85);
 }
 
-*{
-    margin: 0; padding: 0; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-p{
-    color: var(--p-color);
+p {
+  color: var(--p-color);
 }
-
 
 /* transitions */
-a, .btn{
-    transition: all 300ms ease;
+a,
+.btn {
+  transition: all 300ms ease;
 }
 
 /* selection */
-::selection{
-    background: lightgrey;
+::selection {
+  background: lightgrey;
 }
