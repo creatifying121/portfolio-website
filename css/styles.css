@@ -218,6 +218,7 @@ body {
 .section-contact {
   padding: 9.6rem;
   background-color: burlywood;
+  overflow-x: hidden;
 }
 
 .contact {
@@ -225,6 +226,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 70vh;
+  overflow-x: hidden;
 }
 
 .heading-secondary {
@@ -239,6 +241,15 @@ body {
   text-align: center;
 }
 
+form .input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-box .input-field {
+  width: 48.5%;
+}
+
 .field .item {
   width: 100%;
   padding: 1.8rem;
@@ -249,6 +260,10 @@ body {
   font-size: 1.6rem;
   color: #333;
   margin: 1.2rem 0;
+}
+
+.field.error .item {
+  border-color: #d93025;
 }
 
 .field .item::placeholder {
@@ -289,4 +304,8 @@ form .textarea-field .item {
   text-align: left;
   margin: -0.5rem 0 1rem;
   display: none;
+}
+
+.field.error .error-txt {
+  display: block;
 }

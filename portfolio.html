@@ -96,26 +96,39 @@
 
         <div class="contact">
           <form action="#">
-            <div class="input-field field">
-              <input
-                type="text"
-                placeholder="Full Name"
-                id="name"
-                class="item"
-                autocomplete="off"
-              />
-              <div class="error-txt">Full Name can't be empty</div>
+            <div class="input-box">
+              <div class="input-field field">
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  id="name"
+                  class="item"
+                  autocomplete="off"
+                />
+                <div class="error-txt">Full Name can't be empty</div>
+              </div>
+
+              <div class="input-field field">
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  id="email"
+                  class="item"
+                  autocomplete="off"
+                />
+                <div class="error-txt email">Email Address can't be empty</div>
+              </div>
             </div>
 
             <div class="input-field field">
               <input
                 type="text"
-                placeholder="Email Address"
-                id="email"
+                placeholder="Subject"
+                id="subject"
                 class="item"
                 autocomplete="off"
               />
-              <div class="error-txt">Email Address can't be empty</div>
+              <div class="error-txt">Subject can't be empty</div>
             </div>
 
             <div class="textarea-field field">
@@ -140,6 +153,9 @@
 
     <!-- SMTPJS.COM SCRIPT -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- SWEET ALERT POP-UP SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- DYNAMIC TEXT -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
