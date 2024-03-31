@@ -64,6 +64,8 @@ body {
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #777;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #777;
 }
 
 .main-nav-link.nav-cta:link,
@@ -176,9 +178,9 @@ body {
 
 .btn {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   transition: all 300ms ease;
-  padding: 1.5rem;
+  padding: 1.7rem;
   border-radius: 3.2rem;
 }
 
@@ -210,7 +212,81 @@ body {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.section-project {
-  background-color: red;
-  height: 80vh;
+/* ================================== */
+/* CONTACT SECTION */
+/* ================================== */
+.section-contact {
+  padding: 9.6rem;
+  background-color: burlywood;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  color: #222;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  width: 50%;
+  text-align: center;
+}
+
+.field .item {
+  width: 100%;
+  padding: 1.8rem;
+  background: transparent;
+  border: 1px solid #777;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  color: #333;
+  margin: 1.2rem 0;
+}
+
+.field .item::placeholder {
+  color: #999;
+}
+
+textarea {
+  font-family: "Rubik", sans-serif;
+}
+
+form .textarea-field .item {
+  resize: none;
+}
+
+.contact-btn {
+  padding: 1.2rem 3.2rem;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 3.2rem;
+  box-shadow: 0 0 10px rgb(53, 53, 53);
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 2.5rem;
+  transition: all 0.5s;
+}
+
+.contact-btn:hover {
+  box-shadow: none;
+}
+
+.field .error-txt {
+  font-size: 1.2rem;
+  color: #d93025;
+  text-align: left;
+  margin: -0.5rem 0 1rem;
+  display: none;
 }
