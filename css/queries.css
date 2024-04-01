@@ -62,3 +62,16 @@
     font-size: 3rem;
   }
 }
+
+/* SMALLER TABLETS -> below 768px */
+@media (max-width: 48em) {
+  .section-experience {
+    padding-top: 9.6rem;
+  }
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .row .col:nth-child(2) {
+    margin-top: 3rem;
+  }
+}

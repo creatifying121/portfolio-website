@@ -292,6 +292,7 @@ form .textarea-field .item {
   cursor: pointer;
   margin-top: 2.5rem;
   transition: all 0.5s;
+  margin-bottom: 1.2rem;
 }
 
 .contact-btn:hover {
@@ -308,4 +309,91 @@ form .textarea-field .item {
 
 .field.error .error-txt {
   display: block;
+}
+
+/* ================================== */
+/* EXPERIENCE SECTION */
+/* ================================== */
+.section-experience {
+  padding: 9.6rem 4.8rem;
+  background-color: cadetblue;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.exp-heading {
+  font-size: 3rem;
+  color: #222;
+  text-align: left;
+  padding: 0 0 2rem 3rem;
+}
+
+.col .contents {
+  padding: 0 3rem;
+  border-left: 2px solid #bababa;
+}
+
+.col .contents .box {
+  position: relative;
+  padding: 2rem;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-bottom: 2rem;
+}
+
+.col .contents .box:hover {
+  box-shadow: 0 0.3rem 1.2rem 0 #ccc;
+  border: 1px solid transparent;
+}
+
+.col .contents .box::before {
+  content: "";
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  right: calc(100% + 2.4rem);
+  top: -0.1rem;
+  background-color: #bababa;
+  border: 2px solid #fff;
+}
+
+.box h4 {
+  font-size: 1.4rem;
+  position: relative;
+  color: #222;
+}
+
+.box h3 {
+  font-size: 1.8rem;
+  padding: 1rem 0 0.5rem 0;
+  color: #444;
+}
+
+.box p {
+  line-height: 1.2;
+  color: #666;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.box .company-name {
+  margin-top: 0;
+}
+
+.exp-list {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.exp-list-item {
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+  line-height: 2rem;
+  color: #666;
 }
