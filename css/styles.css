@@ -19,6 +19,23 @@ body {
 }
 
 /* ================================== */
+/* REUSABLE GRIDS */
+/* ================================== */
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ================================== */
 /* HEADER */
 /* ================================== */
 .header {
@@ -396,4 +413,70 @@ form .textarea-field .item {
   margin-bottom: 1.4rem;
   line-height: 2rem;
   color: #666;
+}
+
+/* ================================== */
+/* BLOG SECTION */
+/* ================================== */
+.section-blog {
+  padding: 9.6rem;
+}
+
+.blog {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.blog:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.blog-content {
+  padding: 3.6rem;
+}
+
+.blog-img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-title {
+  font-size: 3.2rem;
+  margin-bottom: 1.6rem;
+  color: #222;
+}
+
+.blog-subtitle {
+  font-size: 1.6rem;
+  margin: 1.2rem 0;
+  color: #555;
+}
+
+.blog-btn:link,
+.blog-btn:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4.4rem 0 1.6rem 0;
+  padding: 2rem;
+  border-radius: 3rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.blog-btn:active,
+.blog-btn:hover {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0.3rem 1.2rem 0 #ccc;
+}
+
+.section-blog .heading-secondary {
+  margin-bottom: 6.4rem;
 }

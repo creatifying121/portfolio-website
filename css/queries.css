@@ -1,7 +1,31 @@
+/* LANDSCAPE TABLETS -> below 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
 /* TABLETS -> below 940px */
 @media (max-width: 59em) {
   html {
     font-size: 50%;
+  }
+
+  .blog-title {
+    font-size: 2.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .blog-subtitle {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  .blog-btn:link,
+  .blog-btn:visited {
+    margin: 3.2rem 0 1rem 0;
+    padding: 1.4rem;
+    font-size: 1.6rem;
   }
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
@@ -65,6 +89,23 @@
 
 /* SMALLER TABLETS -> below 768px */
 @media (max-width: 48em) {
+  .contact form {
+    width: 70%;
+  }
+  .blog-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .blog-content {
+    padding: 2.4rem;
+  }
+  .blog-subtitle {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .section-experience {
     padding-top: 9.6rem;
   }
@@ -73,5 +114,19 @@
   }
   .row .col:nth-child(2) {
     margin-top: 3rem;
+  }
+}
+
+/* PHONES => BELOW 550px  */
+@media (max-width: 34.5em) {
+  .section-contact {
+    padding: 7.2rem 6.4rem;
+  }
+  .contact form {
+    width: 100%;
+  }
+  .grid--2-cols,
+  .grid--3-cols {
+    grid-template-columns: 1fr;
   }
 }
