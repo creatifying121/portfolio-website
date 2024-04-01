@@ -420,6 +420,7 @@ form .textarea-field .item {
 /* ================================== */
 .section-blog {
   padding: 9.6rem;
+  background-color: darkgray;
 }
 
 .blog {
@@ -468,6 +469,7 @@ form .textarea-field .item {
   font-size: 2rem;
   text-decoration: none;
   font-weight: 500;
+  transition: all 0.5s;
 }
 
 .blog-btn:active,
@@ -479,4 +481,19 @@ form .textarea-field .item {
 
 .section-blog .heading-secondary {
   margin-bottom: 6.4rem;
+}
+
+/* ================================== */
+/* BLOG SECTION */
+/* ================================== */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+footer p {
+  font-size: 1.6rem;
+  color: #666;
 }
