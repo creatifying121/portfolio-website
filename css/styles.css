@@ -140,7 +140,7 @@ body {
 /* ================================== */
 .section-hero {
   padding: 4.8rem 0 9.6rem 0;
-  background-color: beige;
+  /* background-color: beige; */
 }
 
 .hero {
@@ -234,7 +234,7 @@ body {
 /* ================================== */
 .section-contact {
   padding: 9.6rem;
-  background-color: burlywood;
+  /* background-color: burlywood; */
   overflow-x: hidden;
 }
 
@@ -333,7 +333,7 @@ form .textarea-field .item {
 /* ================================== */
 .section-experience {
   padding: 9.6rem 4.8rem;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
 }
 
 .row {
@@ -420,17 +420,19 @@ form .textarea-field .item {
 /* ================================== */
 .section-blog {
   padding: 9.6rem;
-  background-color: darkgray;
+  /* background-color: darkgray; */
 }
 
-.blog {
+.blog,
+.project {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 1rem;
   overflow: hidden;
   transition: all 0.4s;
 }
 
-.blog:hover {
+.blog:hover,
+.project:hover {
   transform: translateY(-1.2rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
@@ -441,7 +443,6 @@ form .textarea-field .item {
 
 .blog-img {
   width: 100%;
-  height: auto;
 }
 
 .blog-title {
@@ -479,12 +480,45 @@ form .textarea-field .item {
   box-shadow: 0 0.3rem 1.2rem 0 #ccc;
 }
 
-.section-blog .heading-secondary {
+.section-blog .heading-secondary,
+.section-project .heading-secondary {
   margin-bottom: 6.4rem;
 }
 
 /* ================================== */
-/* BLOG SECTION */
+/* PROJECT SECTION */
+/* ================================== */
+.section-project {
+  padding: 9.6rem;
+  background-color: beige;
+}
+
+.project-title {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+  color: #222;
+}
+
+.tech-stack {
+  font-size: 2rem;
+  color: #666;
+}
+
+.tech-stack span {
+  font-weight: 600;
+  color: #444;
+}
+
+.project-content {
+  padding: 2.4rem;
+}
+
+.project .blog-img {
+  height: 23rem;
+}
+
+/* ================================== */
+/* FOOTER SECTION */
 /* ================================== */
 footer {
   display: flex;
